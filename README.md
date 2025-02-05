@@ -9,7 +9,27 @@ This project aims to scrape data and collect images from public Telegram channel
 - Libraries: Telethon
 
 ## Installation
-1. **Clone the repository:**
+**Clone the repository:**
    ```sh
    git clone https://github.com/yourusername/yourrepository.git
    cd yourrepository
+   ```
+
+### Usage
+Scrape data from a Telegram channel.
+
+Run object detection using YOLO.
+
+Store detection data in a database.
+
+Run the FastAPI application.
+
+### API Endpoints
+Create Detection: POST /detections/
+
+Get All Detections: GET /detections/
+
+Get Detection by ID: GET /detections/{detection_id}
+
+### Monitoring and Logging
+Configure logging to track the process and capture errors.

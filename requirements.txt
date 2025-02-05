@@ -1,1 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
 telethon
+opencv-python
+torch
+torchvision
+pandas
+requests
