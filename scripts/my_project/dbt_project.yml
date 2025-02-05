@@ -1,0 +1,11 @@
+
+name: 'my_project'
+version: '1.0'
+config-version: 2
+
+profile: 'default'
+
+models:
+  my_project:
+    +enabled: true
+    +materialized: 'view'

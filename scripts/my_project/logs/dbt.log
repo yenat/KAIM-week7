@@ -1,0 +1,96 @@
+[0m21:32:28.960082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759e14904fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759e13b73ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759e13b73e50>]}
+
+
+============================== 21:32:28.961754 | 789b0a99-299c-4333-9d37-15ccce2da413 ==============================
+[0m21:32:28.961754 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:32:28.962115 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/home/enat/KAIM-week7/scripts/my_project/logs', 'profiles_dir': '/home/enat/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m21:32:28.964336 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlite'
+[0m21:32:28.964677 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type sqlite!
+[0m21:32:28.965523 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04647188, "process_in_blocks": "18152", "process_kernel_time": 0.038807, "process_mem_max_rss": "88836", "process_out_blocks": "16", "process_user_time": 0.78908}
+[0m21:32:28.965915 [debug] [MainThread]: Command `dbt run` failed at 21:32:28.965830 after 0.05 seconds
+[0m21:32:28.966169 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759e14904fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759e13b70be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759e13b72b30>]}
+[0m21:32:28.966444 [debug] [MainThread]: Flushing usage events
+[0m21:32:36.079185 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:32:47.756545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e052e791030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e052d99fcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e052d99fd30>]}
+
+
+============================== 21:32:47.758519 | 9ac13031-5194-4593-86fe-af0132d6b1c4 ==============================
+[0m21:32:47.758519 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:32:47.758890 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/home/enat/KAIM-week7/scripts/my_project/logs', 'fail_fast': 'False', 'profiles_dir': '/home/enat/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:32:47.761025 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlite'
+[0m21:32:47.761387 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type sqlite!
+[0m21:32:47.762092 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.046201278, "process_in_blocks": "0", "process_kernel_time": 0.031004, "process_mem_max_rss": "88628", "process_out_blocks": "16", "process_user_time": 0.78512}
+[0m21:32:47.762444 [debug] [MainThread]: Command `dbt test` failed at 21:32:47.762381 after 0.05 seconds
+[0m21:32:47.762685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e052e791030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e052d99edd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e052d99ed10>]}
+[0m21:32:47.762963 [debug] [MainThread]: Flushing usage events
+[0m21:32:50.213762 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:33:02.629549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8456904fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8455b6ff40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8455b6fee0>]}
+
+
+============================== 21:33:02.632207 | 1b8af619-ccd6-449b-9fe3-ba9e5bfe7694 ==============================
+[0m21:33:02.632207 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:33:02.632979 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/enat/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/home/enat/KAIM-week7/scripts/my_project/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs serve', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:33:02.636828 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlite'
+[0m21:33:02.637604 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type sqlite!
+[0m21:33:02.638405 [debug] [MainThread]: Resource report: {"command_name": "serve", "command_success": false, "command_wall_clock_time": 0.056990203, "process_in_blocks": "0", "process_kernel_time": 0.052022, "process_mem_max_rss": "88432", "process_out_blocks": "8", "process_user_time": 0.893394}
+[0m21:33:02.638852 [debug] [MainThread]: Command `dbt docs serve` failed at 21:33:02.638771 after 0.06 seconds
+[0m21:33:02.639154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8456904fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8455b6cbe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c8455b6f6a0>]}
+[0m21:33:02.639434 [debug] [MainThread]: Flushing usage events
+[0m21:33:07.312736 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:34:10.838386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd645b9000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd6389ff10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd6389feb0>]}
+
+
+============================== 21:34:10.840143 | 3ae0d257-10cd-4cba-841f-14e525d9fac4 ==============================
+[0m21:34:10.840143 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:34:10.840511 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/enat/.dbt', 'log_path': '/home/enat/KAIM-week7/scripts/my_project/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:34:10.842677 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlite'
+[0m21:34:10.843027 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type sqlite!
+[0m21:34:10.843600 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.04721611, "process_in_blocks": "0", "process_kernel_time": 0.03206, "process_mem_max_rss": "88620", "process_out_blocks": "16", "process_user_time": 0.803525}
+[0m21:34:10.844015 [debug] [MainThread]: Command `dbt run` failed at 21:34:10.843943 after 0.05 seconds
+[0m21:34:10.844249 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd645b9000>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd6389cbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7afd6389f6d0>]}
+[0m21:34:10.844494 [debug] [MainThread]: Flushing usage events
+[0m21:34:13.909441 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:34:29.870117 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x761adfab5030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x761adeb6ffa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x761adeb6ff40>]}
+
+
+============================== 21:34:29.871821 | bee172d6-3d26-4db3-ab41-bf7d45605b76 ==============================
+[0m21:34:29.871821 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:34:29.872212 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/enat/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/enat/KAIM-week7/scripts/my_project/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:34:29.874421 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlite'
+[0m21:34:29.874781 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type sqlite!
+[0m21:34:29.875386 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.045456342, "process_in_blocks": "0", "process_kernel_time": 0.042961, "process_mem_max_rss": "88816", "process_out_blocks": "0", "process_user_time": 0.793285}
+[0m21:34:29.875750 [debug] [MainThread]: Command `dbt run` failed at 21:34:29.875686 after 0.05 seconds
+[0m21:34:29.876039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x761adfab5030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x761adeb6cc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x761adeb6f700>]}
+[0m21:34:29.876307 [debug] [MainThread]: Flushing usage events
+[0m21:34:31.423735 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:34:38.080662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a6aa8b5030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a6a996bcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a6a996bd30>]}
+
+
+============================== 21:34:38.082647 | 4215bfe4-05f5-46d2-b017-a5bd7bb32422 ==============================
+[0m21:34:38.082647 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:34:38.083041 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/enat/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/home/enat/KAIM-week7/scripts/my_project/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt test', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:34:38.085219 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.sqlite'
+[0m21:34:38.085579 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type sqlite!
+[0m21:34:38.086250 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.048939735, "process_in_blocks": "0", "process_kernel_time": 0.031965, "process_mem_max_rss": "88796", "process_out_blocks": "0", "process_user_time": 0.791146}
+[0m21:34:38.086621 [debug] [MainThread]: Command `dbt test` failed at 21:34:38.086555 after 0.05 seconds
+[0m21:34:38.086923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a6aa8b5030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a6a996add0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x70a6a996ad10>]}
+[0m21:34:38.087185 [debug] [MainThread]: Flushing usage events
+[0m21:34:39.305945 [debug] [MainThread]: An error was encountered while trying to flush usage events
